@@ -1,6 +1,5 @@
 @use './partials/variables' as *;
 @use './partials/mixins' as *;
-@use './partials/motion' as *;
 
 *,
 *::before,
@@ -214,6 +213,7 @@ body {
             flex-direction: column;
             align-items: center;
             border:0.1px solid $silver;
+            position: relative;
 
             &:hover {
                 opacity: 98%;
